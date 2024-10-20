@@ -1,5 +1,7 @@
 package com.example.springconcept.developer;
 
+import com.example.springconcept.common.Repository;
+
 public class MyRepositoryV2 implements Repository {
     @Override
     public void queryDatabase() {

@@ -1,5 +1,8 @@
 package com.example.springconcept.developer;
 
+import com.example.springconcept.common.Repository;
+import com.example.springconcept.common.Service;
+
 public class MyApp {
     public static void main(String[] args) {
         Repository repository = new MyRepository();

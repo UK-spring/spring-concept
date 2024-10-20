@@ -1,5 +1,8 @@
 package com.example.springconcept.developer;
 
+import com.example.springconcept.common.Repository;
+import com.example.springconcept.common.Service;
+
 public class MyService implements Service {
 
     private Repository repository;
