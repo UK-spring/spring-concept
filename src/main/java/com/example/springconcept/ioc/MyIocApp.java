@@ -5,7 +5,7 @@ import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 import org.springframework.context.annotation.ComponentScan;
 
-@ComponentScan(basePackages = "com.example")
+@ComponentScan(basePackages = "com.example.springconcept.ioc")
 public class MyIocApp {
     public static void main(String[] args) {
         ApplicationContext context = new AnnotationConfigApplicationContext(MyIocApp.class);
