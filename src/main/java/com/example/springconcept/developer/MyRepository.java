@@ -1,4 +1,4 @@
-package com.example.springconcept.ioc;
+package com.example.springconcept.developer;
 
 public class MyRepository implements Repository {
     @Override
