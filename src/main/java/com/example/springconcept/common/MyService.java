@@ -1,5 +1,5 @@
 package com.example.springconcept.common;
 
-public interface Service {
+public interface MyService {
     void doSomething();
 }

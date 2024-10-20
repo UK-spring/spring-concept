@@ -1,5 +1,5 @@
 package com.example.springconcept.common;
 
-public interface Repository {
+public interface MyRepository {
     void queryDatabase();
 }

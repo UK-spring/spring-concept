@@ -1,17 +1,18 @@
 package com.example.springconcept.developer;
 
-import com.example.springconcept.common.Repository;
-import com.example.springconcept.common.Service;
+import com.example.springconcept.common.MyRepository;
+import com.example.springconcept.common.MyService;
 
 public class MyApp {
     public static void main(String[] args) {
-        Repository repository = new MyRepository();
+        MyRepository repo = new MyRepositoryImpl();
 
-        // Repository repo = new MyRepositoryV2();
+//        MyRepository repo2 = new MyRepositoryImplV2();
 
-        Service service = new MyService(repository);
-        // Service service = new MyServiceV2(repository);
+        MyService myService = new MyServiceImpl(repo);
 
-        service.doSomething();
+//        MyService myService2 = new MyServiceImpl(repo);
+
+        myService.doSomething();
     }
 }
