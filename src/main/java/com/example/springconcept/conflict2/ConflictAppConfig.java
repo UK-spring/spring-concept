@@ -11,6 +11,6 @@ public class ConflictAppConfig {
     // conflictService 이름으로 Bean 생성
     @Bean(name = "conflictService")
     MyService myService() {
-        return new ConflictService();
+        return new ConflictServiceV2();
     }
 }
